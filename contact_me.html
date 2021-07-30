@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Contact Me</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid peru;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 5px;
+            color: rgb(4, 44, 37);
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="text-align:center;">Contact Us!</h1>
+    <table>
+        <tr>
+        <th>Section</th>
+        <th>Address</th>
+        <th>Email</th>
+        <th>Phone Number</th>
+    </tr>
+        <tr>
+        <td>Fever</td>
+        <td>123 Brickton Lane</td>
+        <td>fevermercenarycompany@uto.com</td>
+        <td>123-456-7890</td>
+    </tr>
+        <tr>
+            <td>Choice</td>
+            <td>56 Main Street</td>
+            <td>choiceoffice@uto.gov</td>
+            <td>956-986-8423</td>
+        </tr>
+        <tr>
+            <td>Key</td>
+            <td>34 Research</td>
+            <td>keyoffice@uto.gov</td>
+            <td>235-456-8621</td>
+        </tr>
+    </table>
+    <form action="/my-handling-form-page" method="post">
+        <p>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="user_name">
+        </p>
+        <p>
+            <label for="mail">E-mail:</label>
+            <input type="email" id="mail" name="user_email">
+        </p>
+        <p>
+            <label for="msg">Message:</label>
+            <textarea id="msg" name="user_message"></textarea>
+        </p>
+        <p><button type="submit">Send Your Message!</button></p>
+    </form>
+</body>
+
+</html>
